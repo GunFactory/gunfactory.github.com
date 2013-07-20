@@ -175,7 +175,7 @@ hr
 	
 	#menu ul
 	{
-		display: inline-block;
+		display: inline-block;;
 	}
 	
 	#menu li
@@ -261,10 +261,16 @@ hr
 
 #header-wrapper
 {
-	height: 49em;
+	width: 1900px;
+	height: 783px; 
+	position: relative;
 	background: url('images/header.jpg') no-repeat top center;
 	background-size: 100%;
-	resize: none;
+}
+
+.containerHeader
+{
+	
 }
 
 #header-after
@@ -272,8 +278,7 @@ hr
 	background: url("images/bg01.png") repeat scroll 0 0 / 100% auto transparent;
     height: 3em;
     position: relative;
-    top: 0em;
-    width: 100%;
+
 }
 
 	ul.style2
