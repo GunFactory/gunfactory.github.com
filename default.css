@@ -91,8 +91,7 @@ a img
 	
 	.image-centered
 	{
-		display: block;
-		margin: 0 0 2em 0;
+		
 	}
 
 	.image-centered img
@@ -199,25 +198,26 @@ hr
 	.home
 	{
 		position: absolute;
-		left : 13%;
+		left : 5%;
 	}
+	
 	
 	.blog
 	{
 		position: absolute;
-		left : 28%;
+		left : 25%;
 	}
 	
 	.team
 	{
 		position: absolute;
-		left : 43%;
+		right : 25%;
 	}
 	
 	.contact
 	{
 		position: absolute;
-		left : 58%;
+		right : 5%;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
@@ -292,9 +292,18 @@ hr
 	
 }
 
-.containerHeader
+#centerP
 {
-	
+    position: relative;
+	text-align: center;
+	font-size: 1.6em;
+}
+
+#centerImage
+{
+	height: 1033px;
+    position: relative;
+	background: url("images/team.jpg") no-repeat center;
 }
 
 #header-after
@@ -322,58 +331,6 @@ hr
 	{
 		border-top: 0;
 		padding-top: 0;
-	}
-
-/*********************************************************************************/
-/* Portfolio                                                                     */
-/*********************************************************************************/
-
-	#portfolio-wrapper
-	{
-		background: #710C31;
-		padding: 6em 0em;
-	}
-	
-	#portfolio
-	{
-		overflow: hidden;
-		text-align: center;
-		color: #EEA7C1;
-	}
-	
-	#portfolio .title h2
-	{
-		color: #FFF;
-	}
-
-	#portfolio .byline
-	{
-		color: #EEA7C1;
-	}
-	
-	#column1,
-	#column2,
-	#column3,
-	#column4
-	{
-		width: 282px;
-	}
-	
-	#column1,
-	#column2
-	{
-		float: left;
-		margin-right: 24px;
-	}
-	
-	#column3
-	{
-		float: left;
-	}
-	
-	#column4
-	{
-		float: right;
 	}
 
 /*********************************************************************************/
@@ -427,39 +384,6 @@ hr
 		font-size: 0.90em;
 		color: #6F6F6F;
 	}
-
-/*********************************************************************************/
-/* Button Style                                                                  */
-/*********************************************************************************/
-
-	.button
-	{
-		display: inline-block;
-		margin-top: 2em;
-		padding: 1em 3em;
-		background: #C4376B;
-		-moz-transition: opacity 0.25s ease-in-out;
-		-webkit-transition: opacity 0.25s ease-in-out;
-		-o-transition: opacity 0.25s ease-in-out;
-		-ms-transition: opacity 0.25s ease-in-out;
-		transition: opacity 0.25s ease-in-out;
-		letter-spacing: 0.20em;
-		text-decoration: none;
-		text-transform: uppercase;
-		font-weight: 600;
-		font-size: 0.90em;
-		color: #FFF;
-	}
-
-		.button:hover
-		{
-			background: #D64077;
-		}
-		
-		.button:active
-		{
-			background: #BD3567;
-		}
 			
 
 /*********************************************************************************/
