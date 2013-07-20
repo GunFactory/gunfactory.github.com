@@ -199,25 +199,25 @@ hr
 	.home
 	{
 		position: absolute;
-		left : 5%;
+		left : 13%;
 	}
 	
 	.blog
 	{
 		position: absolute;
-		left : 25%;
+		left : 28%;
 	}
 	
 	.team
 	{
 		position: absolute;
-		left : 45%;
+		left : 43%;
 	}
 	
 	.contact
 	{
 		position: absolute;
-		left : 65%;
+		left : 58%;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
