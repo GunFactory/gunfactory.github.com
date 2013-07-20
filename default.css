@@ -262,9 +262,9 @@ hr
 #header-wrapper
 {
 	height: 49em;
-	width: 100%;
 	background: url('images/header.jpg') no-repeat top center;
 	background-size: 100%;
+	resize: none;
 }
 
 #header-after
