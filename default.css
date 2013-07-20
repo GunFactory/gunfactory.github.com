@@ -114,7 +114,7 @@ hr
 
 .containerMenu
 {
-	
+	width: 100%;
 }
 
 .container
@@ -170,17 +170,16 @@ hr
 
 	#menu
 	{
-		position: relative;
+		
 	}
 	
 	#menu ul
 	{
-		display: inline-block;;
+		
 	}
 	
 	#menu li
 	{
-		display: block;
 		float: left;
 	}
 	
@@ -195,6 +194,30 @@ hr
 		text-transform: uppercase;
 		outline: 0;
 		color: #A2A2A2;
+	}
+	
+	.home
+	{
+		position: absolute;
+		left : 5%;
+	}
+	
+	.blog
+	{
+		position: absolute;
+		left : 25%;
+	}
+	
+	.team
+	{
+		position: absolute;
+		left : 45%;
+	}
+	
+	.contact
+	{
+		position: absolute;
+		left : 65%;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
@@ -276,10 +299,10 @@ hr
 
 #header-after
 {
-	background: url("images/bg01.png") repeat scroll 0 0 / 100% auto transparent;
+	width: 100%;
     height: 3em;
     position: relative;
-
+	background: url("images/bg01.png") repeat scroll 0 0 / 100% auto transparent;
 }
 
 	ul.style2
