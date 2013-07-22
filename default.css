@@ -12,7 +12,7 @@ body
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 12pt;
 	font-weight: 300;
-	color: #363636;
+	color: #313131;
 }
 
 h1
@@ -29,6 +29,7 @@ h2
 	padding: 0;
 	font-size: 25pt;
 	font-weight: 300;
+	color: #707070;
 }
 
 h3
@@ -52,7 +53,7 @@ strong
 
 a
 {
-	color: #AB2657;
+	color: #707070;;
 }
 
 a:hover
@@ -317,7 +318,7 @@ hr
 		letter-spacing: 0.20em;
 		font-weight: 700;
 		font-size: 2em;
-		color: #FFF;
+		color: #8C8C8C;
 	}
 	
 	.title .byline
@@ -326,7 +327,7 @@ hr
 		text-transform: uppercase;
 		font-weight: 400;
 		font-size: 0.90em;
-		color: #6F6F6F;
+		color: #8C8C8C;
 	}
 
 
