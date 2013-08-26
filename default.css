@@ -252,6 +252,13 @@ hr
 	font-size: 1.6em;
 }
 
+#blogpost1
+{
+	height: 1033px;
+    position: relative;
+	background: url("images/poster.jpg") no-repeat center;
+}
+
 #centerImage
 {
 	height: 1033px;
@@ -322,6 +329,15 @@ hr
 	}
 	
 	.title .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #707070;
+	}
+	
+	.byline
 	{
 		letter-spacing: 0.15em;
 		text-transform: uppercase;
