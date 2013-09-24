@@ -270,21 +270,21 @@ hr
 {
 	height: 384px;
     position: relative;
-	background: url("images/WarBeta.png") no-repeat center;
+	background: url("images/WarBeta.jpg") no-repeat center;
 }
 
 #blogpost2-beta2
 {
 	height: 384px;
     position: relative;
-	background: url("images/OfficeBeta.png") no-repeat center;
+	background: url("images/OfficeBeta.jpg") no-repeat center;
 }
 
 #blogpost2-beta1
 {
 	height: 384px;
     position: relative;
-	background: url("images/CityBeta.png") no-repeat center;
+	background: url("images/CityBeta.jpg") no-repeat center;
 }
 
 #centerImage
