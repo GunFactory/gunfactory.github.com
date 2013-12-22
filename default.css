@@ -194,13 +194,19 @@ hr
 	.blog
 	{
 		position: absolute;
-		left : 38%;
+		left : 25%;
 	}
 	
 	.team
 	{
 		position: absolute;
-		left : 72%;
+		left : 55%;
+	}
+	
+	.press
+	{
+		position: absolute;
+		left : 73%;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
