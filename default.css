@@ -293,6 +293,13 @@ hr
 	background: url("images/CityBeta.jpg") no-repeat center;
 }
 
+#blogpost3
+{
+	height: 384px;
+    position: relative;
+	background: url("images/Bombing.jpg") no-repeat center;
+}
+
 #centerImage
 {
     position: relative;
