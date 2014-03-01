@@ -248,13 +248,13 @@ hr
 	#content
 	{
 		float: left;
-		width: 900px;
+		width: 100%;
 	}
 
 	#sidebar
 	{
 		float: right;
-		width: 345px;
+		width: 100%;
 	}
 	
 	#sidebar .title h2
