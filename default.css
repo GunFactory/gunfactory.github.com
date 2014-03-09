@@ -319,6 +319,13 @@ hr
 	background: url("images/Bombing.jpg") no-repeat center;
 }
 
+#blogpost4
+{
+	height: 384px;
+    position: relative;
+	background: url("images/population_riot.gif") no-repeat center;
+}
+
 #centerImage
 {
     position: relative;
