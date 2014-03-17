@@ -172,6 +172,19 @@ hr
 	clear: both;
 }
 
+.links
+{
+	display: block;
+	padding: 0.60em 8.9em;
+	letter-spacing: 0.89em;
+	text-decoration: none;
+	font-size: 1.13em;
+	font-weight: 500;
+	text-transform: uppercase;
+	outline: 0;
+	color: #A2A2A2;
+}
+
 #header
 {
 }
@@ -217,15 +230,7 @@ hr
 	
 	#menu li a, #menu li span
 	{
-		display: block;
-		padding: 0.60em 8.9em;
-		letter-spacing: 0.89em;
-		text-decoration: none;
-		font-size: 1.13em;
-		font-weight: 500;
-		text-transform: uppercase;
-		outline: 0;
-		color: #A2A2A2;
+	
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
