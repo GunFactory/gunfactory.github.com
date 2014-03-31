@@ -29,54 +29,62 @@
 			<div class="title">
 				<h1>Contact Us</h1>
 			</div>
-			<div>
-			<form name="htmlform" method="post" action="html_form_send.php">
-			<table width="900px">
-			</tr>
-			<tr>
-			 <td valign="top">
-			  <label for="first_name"><h3>First Name</h3></label>
-			 </td>
-			 <td valign="top">
-			  <input  type="text" name="first_name" maxlength="50" size="60">
-			 </td>
-			</tr>
-			<tr>
-			 <td valign="top">
-			  <label for="last_name"><h3>Last Name</h3></label>
-			 </td>
-			 <td valign="top">
-			  <input  type="text" name="last_name" maxlength="50" size="60">
-			 </td>
-			</tr>
-			<tr>
-			 <td valign="top">
-			  <label for="email"><h3>Email Address</h3></label>
-			 </td>
-			 <td valign="top">
-			  <input  type="text" name="email" maxlength="80" size="60">
-			 </td>
-			</tr>
-			<tr>
-			 <td valign="top">
-			  <label for="comments"><h3>Message</h3></label>
-			 </td>
-			 <td valign="top">
-			  <textarea  name="comments" maxlength="1500" cols="47" rows="20"></textarea>
-			 </td>
-			 
-			</tr>
-			</table>
-			<center><input type="submit" value="Submit" style="width: 306px; height: 30px;"></center>
-			</form>
-			</div>
+			<?php
+			$action=$_REQUEST['action'];
+			if ($action=="")   
+			{
+			?>
+				<form  action="" method="POST" enctype="multipart/form-data">
+				<input type="hidden" name="action" value="submit">
+				<h2>Name</h2>
+				<input name="name" type="text" value="" size="50"/><br>
+				<h2>Email Address</h2>
+				<input name="email" type="text" value="" size="50"/><br>
+				<h2>Message</h2>
+				<textarea name="message" rows="20" cols="50"></textarea><br>
+				<input type="submit" value="Send email"/>
+				</form>
+			<?php
+			} 
+			else                
+			{
+				$name=$_REQUEST['name'];
+				$email=$_REQUEST['email'];
+				$message=$_REQUEST['message'];
+				if (($name=="")||($email=="")||($message==""))
+				{
+					echo "All fields are required, please fill the form again.";
+				}
+				else
+				{        
+					$from="From: $name\r\nReturn-path: $email";
+					$subject="War Agent Submission Form";
+					mail("info.waragent@gmail.com", $subject, $message, $from);
+					echo "Your message has been successfully sent. We will contact you very soon!";
+				}
+			}
+			?>
 		</div>
 	</div>
 </div>
 <br></br><br></br>
 <!--<p id="centerP">Alexandre Kishka, Elise Hamzaoglu, Thuy Linh Tran, Mehrdad Dehdashti</p>
 <div id="centerImage"></div>
-<br></br><br></br>-->
+<br></br><br></br>
+$name=$_REQUEST['name'];
+				$email=$_REQUEST['email'];
+				$message=$_REQUEST['message'];
+				if (($name=="")||($email=="")||($message==""))
+				{
+					echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+				}
+				else
+				{        
+					$from="From: $name<$email>\r\nReturn-path: $email";
+					$subject="Message sent using your contact form";
+					mail("info.waragent@gmail.com", $subject, $message, $from);
+					echo "Your message has been successfully sent. We will contact you very soon!";
+				}-->
 <div id="copyright">
 	<p>Copyright (c) 2013 waragentgame.com. All rights reserved.</p>
 </div>
